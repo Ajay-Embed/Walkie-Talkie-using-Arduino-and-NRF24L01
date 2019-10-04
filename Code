@@ -40,7 +40,6 @@ Note: See http://arduino.cc/en/Tutorial/InputPullupSerial for info on how to wir
 Note: Pin selections can be overridden by modifying the userConfig.h file included with the library
 */
 
-
 #include <RF24.h>
 #include <SPI.h>
 #include <RF24Audio.h>
@@ -71,3 +70,5 @@ void loop() {
  // In this example, the radio is controlled by external buttons, so there is nothing to do here
  
 }
+
+
